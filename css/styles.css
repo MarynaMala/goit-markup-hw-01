@@ -20,8 +20,6 @@ body {
 }
 
 .header-link {
-    font-family: 'Roboto';
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -68,7 +66,6 @@ body {
 }
 
 .section-header {
-    font-family: 'Roboto';
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -90,7 +87,6 @@ body {
 .strategy {}
 
 .strategy-header {
-    font-family: 'Roboto';
     font-size: 20px;
     line-height: 1,2;
     letter-spacing: 0.02em;
@@ -98,7 +94,6 @@ body {
 }
 
 .strategy-item {
-    font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -112,7 +107,6 @@ body {
 .about {}
 
 .about-header {
-    font-family: 'Roboto';
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -129,7 +123,6 @@ body {
 .team {}
 
 .team-header {
-font-family: 'Roboto';
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -151,7 +144,6 @@ font-family: 'Roboto';
 }
 
 .team-text {
-font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -165,7 +157,6 @@ font-family: 'Roboto';
 .footer-logo {}
 
 .footer-item {
-font-family: 'Roboto';
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
