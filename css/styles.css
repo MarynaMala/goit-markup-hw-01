@@ -300,7 +300,7 @@ font-family: "Raleway", sans-serif;
 
 .header-link:focus {
     color: #404bbf;
-
+}
 .address {}
 
 .address-mail,
@@ -334,15 +334,23 @@ font-family: "Raleway", sans-serif;
 .buttons-item {}
 
 .buttons-title {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color:#F4F4FD;
     cursor: pointer;
+    background-color: #4d5ae5;
 }
 
+.buttons-title:hover {
+    background-color: #404BBF;
+}
+
+.buttons-title:focus {
+    background-color: #404BBF;
+}
 .list {}
 
 
@@ -352,9 +360,13 @@ font-family: "Raleway", sans-serif;
 
 .photos-list {}
 
-.list {}
+.list {
+    list-style: none
+}
 
-.photos-item {}
+.photos-item {
+
+}
 
 .photos-title {
     font-weight: 500;
