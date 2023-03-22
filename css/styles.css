@@ -69,8 +69,8 @@ body {
     font-style: normal;
 }
 
-.address-mail ,
-.address-phone {
+.address-item ,
+.address-item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -79,18 +79,18 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-mail:hover {
+.address-item:hover {
         color: #404bbf;
     }
 
-.address-phone:hover {
+.address-item:hover {
     color:#404bbf;
 }
-.address-mail:focus {
+.address-item:focus {
     color: #404bbf;
 }
 
-.address-phone:focus {
+.address-item:focus {
     color: #404bbf;
 }
 
