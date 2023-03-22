@@ -50,6 +50,7 @@ body {
 }
 
 .header-link {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -83,6 +84,13 @@ body {
 .address-phone:hover {
     color:#404bbf;
 }
+.address-mail:focus {
+    color: #404bbf;
+}
+
+.address-phone:focus {
+    color: #404bbf;
+}
 
 .address-item {}
 
@@ -96,6 +104,7 @@ body {
 }
 
 .section-header {
+    font-style: normal;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -104,6 +113,7 @@ body {
 
 .section-btn {
         font-family: "Roboto", sans-serif;
+        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -125,7 +135,7 @@ background-color: #404BBF;
 .strategy {}
 
 .strategy-header {
-    font-weight: 500
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -146,6 +156,7 @@ background-color: #404BBF;
 .about {}
 
 .about-header {
+    font-style: normal;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -154,7 +165,9 @@ background-color: #404BBF;
         color: #2E2F42;
 }
 
-.list {}
+.list {
+
+}
 
 .about-list {}
 
@@ -179,6 +192,7 @@ background-color: #404BBF;
 .team-item {}
 
 .team-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -320,7 +334,13 @@ font-family: "Raleway", sans-serif;
 .address-phone:hover {
     color: #404bbf;
 }
+.address-mail:focus {
+    color: #404bbf;
+}
 
+.address-phone:focus {
+    color: #404bbf;
+}
 .address-item {}
 
 .main {}
@@ -334,7 +354,7 @@ font-family: "Raleway", sans-serif;
 .buttons-item {}
 
 .buttons-title {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -351,7 +371,9 @@ font-family: "Raleway", sans-serif;
 .buttons-title:focus {
     background-color: #404BBF;
 }
-.list {}
+.list {
+    text-decoration: none;
+}
 
 
 /* --------------------PHOTOS-------------------- */
@@ -361,7 +383,8 @@ font-family: "Raleway", sans-serif;
 .photos-list {}
 
 .list {
-    list-style: none
+    list-style: none;
+    text-decoration: none;
 }
 
 .photos-item {
